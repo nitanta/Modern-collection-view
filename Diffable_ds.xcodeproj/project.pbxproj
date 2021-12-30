@@ -17,6 +17,9 @@
 		5072B1E6277D949B00DB5A30 /* Diffable_dsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5072B1E5277D949B00DB5A30 /* Diffable_dsTests.swift */; };
 		5072B1F0277D949C00DB5A30 /* Diffable_dsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5072B1EF277D949C00DB5A30 /* Diffable_dsUITests.swift */; };
 		5072B1F2277D949C00DB5A30 /* Diffable_dsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5072B1F1277D949C00DB5A30 /* Diffable_dsUITestsLaunchTests.swift */; };
+		5072B202277D966C00DB5A30 /* MetaCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5072B200277D966C00DB5A30 /* MetaCollectionViewCell.swift */; };
+		5072B203277D966C00DB5A30 /* MetaCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5072B201277D966C00DB5A30 /* MetaCollectionViewCell.xib */; };
+		5072B205277D9AAD00DB5A30 /* SectionHeaderReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5072B204277D9AAD00DB5A30 /* SectionHeaderReusableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		5072B1EB277D949C00DB5A30 /* Diffable_dsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Diffable_dsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5072B1EF277D949C00DB5A30 /* Diffable_dsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diffable_dsUITests.swift; sourceTree = "<group>"; };
 		5072B1F1277D949C00DB5A30 /* Diffable_dsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diffable_dsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5072B200277D966C00DB5A30 /* MetaCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetaCollectionViewCell.swift; sourceTree = "<group>"; };
+		5072B201277D966C00DB5A30 /* MetaCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MetaCollectionViewCell.xib; sourceTree = "<group>"; };
+		5072B204277D9AAD00DB5A30 /* SectionHeaderReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeaderReusableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +107,9 @@
 		5072B1CA277D949900DB5A30 /* Diffable_ds */ = {
 			isa = PBXGroup;
 			children = (
+				5072B1FE277D964800DB5A30 /* Listing */,
 				5072B1CB277D949900DB5A30 /* AppDelegate.swift */,
 				5072B1CD277D949900DB5A30 /* SceneDelegate.swift */,
-				5072B1CF277D949900DB5A30 /* ViewController.swift */,
-				5072B1D1277D949900DB5A30 /* Main.storyboard */,
 				5072B1D7277D949B00DB5A30 /* Assets.xcassets */,
 				5072B1D9277D949B00DB5A30 /* LaunchScreen.storyboard */,
 				5072B1DC277D949B00DB5A30 /* Info.plist */,
@@ -128,6 +133,26 @@
 				5072B1F1277D949C00DB5A30 /* Diffable_dsUITestsLaunchTests.swift */,
 			);
 			path = Diffable_dsUITests;
+			sourceTree = "<group>";
+		};
+		5072B1FE277D964800DB5A30 /* Listing */ = {
+			isa = PBXGroup;
+			children = (
+				5072B1FF277D965400DB5A30 /* Views */,
+				5072B1CF277D949900DB5A30 /* ViewController.swift */,
+				5072B1D1277D949900DB5A30 /* Main.storyboard */,
+			);
+			path = Listing;
+			sourceTree = "<group>";
+		};
+		5072B1FF277D965400DB5A30 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5072B200277D966C00DB5A30 /* MetaCollectionViewCell.swift */,
+				5072B201277D966C00DB5A30 /* MetaCollectionViewCell.xib */,
+				5072B204277D9AAD00DB5A30 /* SectionHeaderReusableView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5072B1DB277D949B00DB5A30 /* LaunchScreen.storyboard in Resources */,
+				5072B203277D966C00DB5A30 /* MetaCollectionViewCell.xib in Resources */,
 				5072B1D8277D949B00DB5A30 /* Assets.xcassets in Resources */,
 				5072B1D3277D949900DB5A30 /* Main.storyboard in Resources */,
 			);
@@ -263,7 +289,9 @@
 			files = (
 				5072B1D0277D949900DB5A30 /* ViewController.swift in Sources */,
 				5072B1CC277D949900DB5A30 /* AppDelegate.swift in Sources */,
+				5072B205277D9AAD00DB5A30 /* SectionHeaderReusableView.swift in Sources */,
 				5072B1CE277D949900DB5A30 /* SceneDelegate.swift in Sources */,
+				5072B202277D966C00DB5A30 /* MetaCollectionViewCell.swift in Sources */,
 				5072B1D6277D949900DB5A30 /* Diffable_ds.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -451,6 +479,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -479,6 +508,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
