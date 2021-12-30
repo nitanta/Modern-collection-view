@@ -20,6 +20,7 @@
 		5072B202277D966C00DB5A30 /* MetaCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5072B200277D966C00DB5A30 /* MetaCollectionViewCell.swift */; };
 		5072B203277D966C00DB5A30 /* MetaCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5072B201277D966C00DB5A30 /* MetaCollectionViewCell.xib */; };
 		5072B205277D9AAD00DB5A30 /* SectionHeaderReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5072B204277D9AAD00DB5A30 /* SectionHeaderReusableView.swift */; };
+		5072B207277DA25A00DB5A30 /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 5072B206277DA25A00DB5A30 /* Readme.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		5072B200277D966C00DB5A30 /* MetaCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetaCollectionViewCell.swift; sourceTree = "<group>"; };
 		5072B201277D966C00DB5A30 /* MetaCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MetaCollectionViewCell.xib; sourceTree = "<group>"; };
 		5072B204277D9AAD00DB5A30 /* SectionHeaderReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeaderReusableView.swift; sourceTree = "<group>"; };
+		5072B206277DA25A00DB5A30 /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 		5072B1BF277D949900DB5A30 = {
 			isa = PBXGroup;
 			children = (
+				5072B206277DA25A00DB5A30 /* Readme.md */,
 				5072B1CA277D949900DB5A30 /* Diffable_ds */,
 				5072B1E4277D949B00DB5A30 /* Diffable_dsTests */,
 				5072B1EE277D949C00DB5A30 /* Diffable_dsUITests */,
@@ -259,6 +262,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5072B207277DA25A00DB5A30 /* Readme.md in Resources */,
 				5072B1DB277D949B00DB5A30 /* LaunchScreen.storyboard in Resources */,
 				5072B203277D966C00DB5A30 /* MetaCollectionViewCell.xib in Resources */,
 				5072B1D8277D949B00DB5A30 /* Assets.xcassets in Resources */,
