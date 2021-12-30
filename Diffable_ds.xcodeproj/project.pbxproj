@@ -1,0 +1,646 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5072B1CC277D949900DB5A30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5072B1CB277D949900DB5A30 /* AppDelegate.swift */; };
+		5072B1CE277D949900DB5A30 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5072B1CD277D949900DB5A30 /* SceneDelegate.swift */; };
+		5072B1D0277D949900DB5A30 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5072B1CF277D949900DB5A30 /* ViewController.swift */; };
+		5072B1D3277D949900DB5A30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5072B1D1277D949900DB5A30 /* Main.storyboard */; };
+		5072B1D6277D949900DB5A30 /* Diffable_ds.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5072B1D4277D949900DB5A30 /* Diffable_ds.xcdatamodeld */; };
+		5072B1D8277D949B00DB5A30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5072B1D7277D949B00DB5A30 /* Assets.xcassets */; };
+		5072B1DB277D949B00DB5A30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5072B1D9277D949B00DB5A30 /* LaunchScreen.storyboard */; };
+		5072B1E6277D949B00DB5A30 /* Diffable_dsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5072B1E5277D949B00DB5A30 /* Diffable_dsTests.swift */; };
+		5072B1F0277D949C00DB5A30 /* Diffable_dsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5072B1EF277D949C00DB5A30 /* Diffable_dsUITests.swift */; };
+		5072B1F2277D949C00DB5A30 /* Diffable_dsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5072B1F1277D949C00DB5A30 /* Diffable_dsUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5072B1E2277D949B00DB5A30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5072B1C0277D949900DB5A30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5072B1C7277D949900DB5A30;
+			remoteInfo = Diffable_ds;
+		};
+		5072B1EC277D949C00DB5A30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5072B1C0277D949900DB5A30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5072B1C7277D949900DB5A30;
+			remoteInfo = Diffable_ds;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5072B1C8277D949900DB5A30 /* Diffable_ds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Diffable_ds.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5072B1CB277D949900DB5A30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5072B1CD277D949900DB5A30 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5072B1CF277D949900DB5A30 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5072B1D2277D949900DB5A30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5072B1D5277D949900DB5A30 /* Diffable_ds.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Diffable_ds.xcdatamodel; sourceTree = "<group>"; };
+		5072B1D7277D949B00DB5A30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5072B1DA277D949B00DB5A30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5072B1DC277D949B00DB5A30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5072B1E1277D949B00DB5A30 /* Diffable_dsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Diffable_dsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5072B1E5277D949B00DB5A30 /* Diffable_dsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diffable_dsTests.swift; sourceTree = "<group>"; };
+		5072B1EB277D949C00DB5A30 /* Diffable_dsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Diffable_dsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5072B1EF277D949C00DB5A30 /* Diffable_dsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diffable_dsUITests.swift; sourceTree = "<group>"; };
+		5072B1F1277D949C00DB5A30 /* Diffable_dsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diffable_dsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5072B1C5277D949900DB5A30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5072B1DE277D949B00DB5A30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5072B1E8277D949C00DB5A30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5072B1BF277D949900DB5A30 = {
+			isa = PBXGroup;
+			children = (
+				5072B1CA277D949900DB5A30 /* Diffable_ds */,
+				5072B1E4277D949B00DB5A30 /* Diffable_dsTests */,
+				5072B1EE277D949C00DB5A30 /* Diffable_dsUITests */,
+				5072B1C9277D949900DB5A30 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5072B1C9277D949900DB5A30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5072B1C8277D949900DB5A30 /* Diffable_ds.app */,
+				5072B1E1277D949B00DB5A30 /* Diffable_dsTests.xctest */,
+				5072B1EB277D949C00DB5A30 /* Diffable_dsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5072B1CA277D949900DB5A30 /* Diffable_ds */ = {
+			isa = PBXGroup;
+			children = (
+				5072B1CB277D949900DB5A30 /* AppDelegate.swift */,
+				5072B1CD277D949900DB5A30 /* SceneDelegate.swift */,
+				5072B1CF277D949900DB5A30 /* ViewController.swift */,
+				5072B1D1277D949900DB5A30 /* Main.storyboard */,
+				5072B1D7277D949B00DB5A30 /* Assets.xcassets */,
+				5072B1D9277D949B00DB5A30 /* LaunchScreen.storyboard */,
+				5072B1DC277D949B00DB5A30 /* Info.plist */,
+				5072B1D4277D949900DB5A30 /* Diffable_ds.xcdatamodeld */,
+			);
+			path = Diffable_ds;
+			sourceTree = "<group>";
+		};
+		5072B1E4277D949B00DB5A30 /* Diffable_dsTests */ = {
+			isa = PBXGroup;
+			children = (
+				5072B1E5277D949B00DB5A30 /* Diffable_dsTests.swift */,
+			);
+			path = Diffable_dsTests;
+			sourceTree = "<group>";
+		};
+		5072B1EE277D949C00DB5A30 /* Diffable_dsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5072B1EF277D949C00DB5A30 /* Diffable_dsUITests.swift */,
+				5072B1F1277D949C00DB5A30 /* Diffable_dsUITestsLaunchTests.swift */,
+			);
+			path = Diffable_dsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5072B1C7277D949900DB5A30 /* Diffable_ds */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5072B1F5277D949C00DB5A30 /* Build configuration list for PBXNativeTarget "Diffable_ds" */;
+			buildPhases = (
+				5072B1C4277D949900DB5A30 /* Sources */,
+				5072B1C5277D949900DB5A30 /* Frameworks */,
+				5072B1C6277D949900DB5A30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Diffable_ds;
+			productName = Diffable_ds;
+			productReference = 5072B1C8277D949900DB5A30 /* Diffable_ds.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5072B1E0277D949B00DB5A30 /* Diffable_dsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5072B1F8277D949C00DB5A30 /* Build configuration list for PBXNativeTarget "Diffable_dsTests" */;
+			buildPhases = (
+				5072B1DD277D949B00DB5A30 /* Sources */,
+				5072B1DE277D949B00DB5A30 /* Frameworks */,
+				5072B1DF277D949B00DB5A30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5072B1E3277D949B00DB5A30 /* PBXTargetDependency */,
+			);
+			name = Diffable_dsTests;
+			productName = Diffable_dsTests;
+			productReference = 5072B1E1277D949B00DB5A30 /* Diffable_dsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5072B1EA277D949C00DB5A30 /* Diffable_dsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5072B1FB277D949C00DB5A30 /* Build configuration list for PBXNativeTarget "Diffable_dsUITests" */;
+			buildPhases = (
+				5072B1E7277D949C00DB5A30 /* Sources */,
+				5072B1E8277D949C00DB5A30 /* Frameworks */,
+				5072B1E9277D949C00DB5A30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5072B1ED277D949C00DB5A30 /* PBXTargetDependency */,
+			);
+			name = Diffable_dsUITests;
+			productName = Diffable_dsUITests;
+			productReference = 5072B1EB277D949C00DB5A30 /* Diffable_dsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5072B1C0277D949900DB5A30 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					5072B1C7277D949900DB5A30 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					5072B1E0277D949B00DB5A30 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 5072B1C7277D949900DB5A30;
+					};
+					5072B1EA277D949C00DB5A30 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 5072B1C7277D949900DB5A30;
+					};
+				};
+			};
+			buildConfigurationList = 5072B1C3277D949900DB5A30 /* Build configuration list for PBXProject "Diffable_ds" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5072B1BF277D949900DB5A30;
+			productRefGroup = 5072B1C9277D949900DB5A30 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5072B1C7277D949900DB5A30 /* Diffable_ds */,
+				5072B1E0277D949B00DB5A30 /* Diffable_dsTests */,
+				5072B1EA277D949C00DB5A30 /* Diffable_dsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5072B1C6277D949900DB5A30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5072B1DB277D949B00DB5A30 /* LaunchScreen.storyboard in Resources */,
+				5072B1D8277D949B00DB5A30 /* Assets.xcassets in Resources */,
+				5072B1D3277D949900DB5A30 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5072B1DF277D949B00DB5A30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5072B1E9277D949C00DB5A30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5072B1C4277D949900DB5A30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5072B1D0277D949900DB5A30 /* ViewController.swift in Sources */,
+				5072B1CC277D949900DB5A30 /* AppDelegate.swift in Sources */,
+				5072B1CE277D949900DB5A30 /* SceneDelegate.swift in Sources */,
+				5072B1D6277D949900DB5A30 /* Diffable_ds.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5072B1DD277D949B00DB5A30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5072B1E6277D949B00DB5A30 /* Diffable_dsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5072B1E7277D949C00DB5A30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5072B1F2277D949C00DB5A30 /* Diffable_dsUITestsLaunchTests.swift in Sources */,
+				5072B1F0277D949C00DB5A30 /* Diffable_dsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5072B1E3277D949B00DB5A30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5072B1C7277D949900DB5A30 /* Diffable_ds */;
+			targetProxy = 5072B1E2277D949B00DB5A30 /* PBXContainerItemProxy */;
+		};
+		5072B1ED277D949C00DB5A30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5072B1C7277D949900DB5A30 /* Diffable_ds */;
+			targetProxy = 5072B1EC277D949C00DB5A30 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5072B1D1277D949900DB5A30 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5072B1D2277D949900DB5A30 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5072B1D9277D949B00DB5A30 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5072B1DA277D949B00DB5A30 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5072B1F3277D949C00DB5A30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5072B1F4277D949C00DB5A30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5072B1F6277D949C00DB5A30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CE53774E6S;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Diffable_ds/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.machx20.macos-pokemon.Diffable-ds";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5072B1F7277D949C00DB5A30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CE53774E6S;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Diffable_ds/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.machx20.macos-pokemon.Diffable-ds";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5072B1F9277D949C00DB5A30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CE53774E6S;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.machx20.macos-pokemon.Diffable-dsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Diffable_ds.app/Diffable_ds";
+			};
+			name = Debug;
+		};
+		5072B1FA277D949C00DB5A30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CE53774E6S;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.machx20.macos-pokemon.Diffable-dsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Diffable_ds.app/Diffable_ds";
+			};
+			name = Release;
+		};
+		5072B1FC277D949C00DB5A30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CE53774E6S;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.machx20.macos-pokemon.Diffable-dsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Diffable_ds;
+			};
+			name = Debug;
+		};
+		5072B1FD277D949C00DB5A30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CE53774E6S;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.machx20.macos-pokemon.Diffable-dsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Diffable_ds;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5072B1C3277D949900DB5A30 /* Build configuration list for PBXProject "Diffable_ds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5072B1F3277D949C00DB5A30 /* Debug */,
+				5072B1F4277D949C00DB5A30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5072B1F5277D949C00DB5A30 /* Build configuration list for PBXNativeTarget "Diffable_ds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5072B1F6277D949C00DB5A30 /* Debug */,
+				5072B1F7277D949C00DB5A30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5072B1F8277D949C00DB5A30 /* Build configuration list for PBXNativeTarget "Diffable_dsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5072B1F9277D949C00DB5A30 /* Debug */,
+				5072B1FA277D949C00DB5A30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5072B1FB277D949C00DB5A30 /* Build configuration list for PBXNativeTarget "Diffable_dsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5072B1FC277D949C00DB5A30 /* Debug */,
+				5072B1FD277D949C00DB5A30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5072B1D4277D949900DB5A30 /* Diffable_ds.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5072B1D5277D949900DB5A30 /* Diffable_ds.xcdatamodel */,
+			);
+			currentVersion = 5072B1D5277D949900DB5A30 /* Diffable_ds.xcdatamodel */;
+			path = Diffable_ds.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5072B1C0277D949900DB5A30 /* Project object */;
+}
