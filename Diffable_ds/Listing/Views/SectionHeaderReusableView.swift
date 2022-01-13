@@ -31,9 +31,20 @@ class SectionHeaderReusableView: UICollectionReusableView {
             titleLabel.topAnchor.constraint(equalTo: topAnchor, constant: 10),
             titleLabel.bottomAnchor.constraint(equalTo: bottomAnchor, constant: -10)
         ])
+        
+        titleLabel.font = AppFont.system12
+        
+        titleLabel.textColor = AppColor.primaryText
+        
+        titleLabel.accessibilityLabel = AccessibilityIdentifiers.ListViewSection.sectionTitleLabel
     }
     
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
 }
+
+//Dynamic fonts
+//Localization
+//Accessibility
+//Dark mode
